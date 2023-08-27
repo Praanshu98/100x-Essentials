@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Fira Code', monospace;
+}
+
+a{
+    color: white;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}

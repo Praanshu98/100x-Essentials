@@ -3,101 +3,105 @@
     <title>My First JavaScript Program</title>
 </head>
 <body>
+    <a href="../index.html">Home Page</a>
+    <p>
+        Please open console panel in developer tools to see the output. <br>
+        Thanks!
+    </p>
+    <script>
+        console.log("Hello, World!"); // simple console message
+        
+        console.log(5 + 10); // Outputs: 15 | can do operations
+        
+        let greeting = "Hello, JavaScript!";
+        console.log(greeting); // Outputs: Hello, JavaScript!
 
-<script>
-    console.log("Hello, World!"); // simple console message
-    
-    console.log(5 + 10); // Outputs: 15 | can do operations
-    
-    let greeting = "Hello, JavaScript!";
-    console.log(greeting); // Outputs: Hello, JavaScript!
+        console.log("Praanshu Grover") // Task 1: Print Name
 
-    console.log("Praanshu Grover") // Task 1: Print Name
+        // Task 2: Simple Math
+        console.log(5 + 2) // Addition of two numbers
+        console.log(5 - 2) // Subtraction of two numbers
+        console.log(5 * 2) // Multiplication of two numbers
+        console.log(5 / 2) // Division of two numbers
+        console.log(5 % 2) // Modulus of two numbers
 
-    // Task 2: Simple Math
-    console.log(5 + 2) // Addition of two numbers
-    console.log(5 - 2) // Subtraction of two numbers
-    console.log(5 * 2) // Multiplication of two numbers
-    console.log(5 / 2) // Division of two numbers
-    console.log(5 % 2) // Modulus of two numbers
+        // Task 3: Assigning value to variable and printing
+        let city = "New Delhi"
+        console.log(city) 
 
-    // Task 3: Assigning value to variable and printing
-    let city = "New Delhi"
-    console.log(city) 
+        let a = 7
+        let b = 8
+        console.log(a + b)
 
-    let a = 7
-    let b = 8
-    console.log(a + b)
+        // Functions in JS
 
-    // Functions in JS
+        function greet() {
+            console.log("Hello from greet function")
+        }
 
-    function greet() {
-        console.log("Hello from greet function")
-    }
+        greet()
 
-    greet()
+        // Function Parameters and Return Values
 
-    // Function Parameters and Return Values
+        function addNumbers(a,b) {
+            let sum = a + b
+            return sum
+        }
 
-    function addNumbers(a,b) {
-        let sum = a + b
-        return sum
-    }
+        let result = addNumbers(5,6)
+        console.log(result)
 
-    let result = addNumbers(5,6)
-    console.log(result)
+        // Testing: Directly returning a+b | calling function from log directly
 
-    // Testing: Directly returning a+b | calling function from log directly
+        function addNumbers_short(a,b) {
+            return a + b
+        }
 
-    function addNumbers_short(a,b) {
-        return a + b
-    }
+        console.log(addNumbers_short(1,2))
 
-    console.log(addNumbers_short(1,2))
+        // Variable and Data Types
+        const PI = 3.14
 
-    // Variable and Data Types
-    const PI = 3.14
+        let colors = ["red", "blue", "green"];
+        console.log(colors)
 
-    let colors = ["red", "blue", "green"];
-    console.log(colors)
+        let person = {
+            name: "Alice",
+            age: 30
+        };
 
-    let person = {
-        name: "Alice",
-        age: 30
-    };
-
-    console.log(person)
+        console.log(person)
 
 
-    // Task 4: Function Creation
-    function sayHello(name) {
-        console.log("Hello,",name)
-    }
+        // Task 4: Function Creation
+        function sayHello(name) {
+            console.log("Hello,",name)
+        }
 
-    sayHello('Praanshu')
+        sayHello('Praanshu')
 
-    // Task 5: Math Functions
-    function subNumbers(a,b){
-        return a - b
-    }
+        // Task 5: Math Functions
+        function subNumbers(a,b){
+            return a - b
+        }
 
-    console.log(subNumbers(5,2))
-    console.log(subNumbers(2,3))
-    console.log(subNumbers(10,5))
+        console.log(subNumbers(5,2))
+        console.log(subNumbers(2,3))
+        console.log(subNumbers(10,5))
 
-    // Task6: Advance Variables
-    const birthYear = 2000
-    console.log("birthYear", birthYear)
-    
-    let fav_food = ['Apple', 'Banana', 'Kiwi']
-    console.log("Fav Foob List", fav_food)
-    
-    let book = {
-        title: "Subtle art of not giving a F**k",
-        author : "Mark Manson",
-        publishYear : 2017
-    }
-    console.log("book object", book)
+        // Task6: Advance Variables
+        const birthYear = 2000
+        console.log("birthYear", birthYear)
+        
+        let fav_food = ['Apple', 'Banana', 'Kiwi']
+        console.log("Fav Foob List", fav_food)
+        
+        let book = {
+            title: "Subtle art of not giving a F**k",
+            author : "Mark Manson",
+            publishYear : 2017
+        }
+        console.log("book object", book)
 
 
 </script>
